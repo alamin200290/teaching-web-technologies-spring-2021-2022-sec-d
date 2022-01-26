@@ -1,0 +1,12 @@
+<students>
+	<student id="1">
+		<name> Al amin </name>
+		<age> 12 </age>
+		<email>alamin@aiub.edu</email>
+	</student>
+	<student id="2">
+		<name> XYZ </name>
+		<age> 16 </age>
+		<email></email>
+	</student>
+</students>
