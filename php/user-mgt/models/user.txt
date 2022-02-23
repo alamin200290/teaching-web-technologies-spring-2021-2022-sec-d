@@ -1,0 +1,2 @@
+alamin|123|amin.se.aiub@gmail.com
+abc|xyz|abc@aiub.edu
