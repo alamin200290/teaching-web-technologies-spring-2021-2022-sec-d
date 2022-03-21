@@ -11,7 +11,7 @@
 			/*$user = ['username'=> $username, 'password'=>$password, 'email'=> $email];
 			$_SESSION['user'] = $user;*/
 
-			$user = $username."|".$password."|".$email."\r\n";
+			$user = "3".$username."|".$password."|".$email."\r\n";
 			$file = fopen('user.txt', 'a');
 			fwrite($file, $user);
 			header('location: login.php');

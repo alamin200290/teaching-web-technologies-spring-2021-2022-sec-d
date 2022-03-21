@@ -1,5 +1,19 @@
 <?php 
 
+
+	//print_r($_REQUEST);
+
+	
+	if(isset($_REQUEST['submit'])){
+		if($_POST['username'] == null){
+			echo "invalid name";
+		}else{
+			echo "success";
+		}
+	}else{
+		echo "invalid request...";
+	}
+
 	//print("Hello world!");
 	//echo "hello php..."." Example";
 
@@ -29,9 +43,9 @@
 
 	//echo $students['s2']['name'];
 
-	function sum($num1, $num2){
+	/*function sum($num1, $num2){
 		echo $num1+$num2;
-	}		
+	}	*/	
 
 	//sum(5,7);
 
@@ -45,7 +59,7 @@
 		echo "test";
 	}*/
 
-	foreach ($students as $s) {
-		echo $s['name']."\n";
-	}
+	/*foreach ($students as $s) {
+		echo "<h1>".$s['name']."</h1>";
+	}*/
 ?>
